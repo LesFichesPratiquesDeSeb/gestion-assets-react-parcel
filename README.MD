@@ -33,8 +33,8 @@ On va ensuite ajouter un fichier `.parcelrc` à la racine de notre projet. Ce fi
 
 ```json
 {
-  "extends": "@parcel/config-default",
-  "reporters": ["parcel-reporter-static-files-copy"]
+  "extends": ["@parcel/config-default"],
+  "reporters":  ["...", "parcel-reporter-static-files-copy"]
 }
 ```
 
